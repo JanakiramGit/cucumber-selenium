@@ -53,6 +53,13 @@ public class LoginSteps {
 		 }		 
 	}
 	
+	@Given("user is on home page")
+	public void user_is_on_home_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    // throw new io.cucumber.java.PendingException();
+		System.out.println("User is on home page");
+	}
+	
 	@When("user clicks add a new student button")
 	public void user_clicks_add_a_new_student_button() {		
 		driver.findElement(By.id("addStudent")).click();
