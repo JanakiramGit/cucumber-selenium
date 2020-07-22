@@ -32,8 +32,8 @@ public class LoginSteps {
 	public void user_enters_username_and_password() {
 		 System.out.println("User entered details");
 		 
-		 driver.findElement(By.id("username")).sendKeys("janakiram.sampalli@gmail.com");
-		 driver.findElement(By.id("password")).sendKeys("siri");
+		 driver.findElement(By.id("username")).sendKeys("test@gmail.com");
+		 driver.findElement(By.id("password")).sendKeys("test");
 	}
 
 	@When("clicks on login button")
